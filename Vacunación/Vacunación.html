@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+    <meta charset= "UTF-8">
+    <meta http-equiv= "X-UA-Compatible" content= "IE= edge">
+    <meta name= "viewport" content= "width= device-width, initial-scale= 1.0">
+    <title> Vacunación || Página principal </title>
+    <link rel= "stylesheet" href= "Stylesheet.css">
+    <script src="https://kit.fontawesome.com/3977c06d40.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Parte 1 de 4 -->
+    
+    <!-- Header: Logo y enlaces -->
+    <header class= "contA1">
+       
+        <div class= "logo">
+            <h2> Vaccination </h2>
+        </div>
+
+        <nav class= "enlaces"> 
+            <a href= ""> Base de Datos </a>
+            <a href= ""> Educación </a>
+            <a href= ""> Noticias </a>
+            <a href= ""> Regulación </a>
+        </nav>
+
+        <input type= "button" id= "registro" name= "registro" value= "Registro">
+   
+    </header>
+    
+    <!-- Contenedor section izquierda e información -->
+    <section class= "contA2">
+    
+        <h1> Combate el Virus con Vacunas </h1>
+    
+        <p class= "p1">
+        Paremos esta pandemia atacando el virus con una vacuna, no permitas que tú o tu familia se contagien
+        </p>
+
+        <ul>
+            <li> <i class="fa-solid fa-shield"> </i> Mejor protección </li>
+            <li> <i class="fa-solid fa-star"> </i> Vacunas Autorizadas por la OMS  </li>
+        </ul>
+
+        <h3 class= "agenda" ><i class="fa-solid fa-clock"></i> Agenda tu cita </h3>
+
+    </section>
+
+    <!-- Contenedor section derecha e imagen -->
+    <section class= "contA3">
+        <img src= "C:\Users\Win10\Desktop\Vacunación\pexels-nataliya-vaitkevich-8830480.jpg" alt= "Imagen relacionada con la vacunación" height= "570px">
+    </section>
+     <!-- Contenedor section inferior  y divs para "Agendar cita"-->
+    <section class= "contA4">
+        <div>
+            <label for= "ubicacion1"> <i class="fa-solid fa-location-pin"></i> Ubicación </label><br>
+            <input list= "ubicacion1" class= "ubicacion" placeholder= "Elige la ciudad">
+                <datalist id= "ubicacion1">
+                    <option value= "Monclova">
+                    <option value= "Piedras Negras">
+                    <option value= "Ramos Arizpe">
+                    <option value= "Saltillo">
+                    <option value= "Torreón">
+                </datalist>
+        </div>
+
+        <div>
+            <label for= "fecha1 "><i class="fa-solid fa-calendar-days"></i> Fecha </label><br>
+            <input type= "date" id= "fecha1" name= "fecha1" min="2021-01-01"> 
+        </div>
+            
+        <div>
+            <label for= "vacunas1"><i class="fa-solid fa-syringe"></i> Tipos de Vacunas </label><br>
+            <select id= "vacunas1" name="vacunas1">
+                <option value= "astrazeneca"> AstraZeneca </option>
+                <option value= "moderna"> Moderna </option>
+                <option value= "pfizer"> Pfizer </option>
+                <option value= "sinovac"> Sinovac </option>
+            </select>
+        </div>
+        <div>
+            <input type= "submit" value= "Enviar" class= "enviar">
+        </div>
+    </section>
+    <!-- Fin de Parte 1 -->
+
+    <!-- Parte 2 de 4 -->
+   
+    <!-- Contenedor Section superior -->
+    <section class= "contB1">
+       <div class= "imgB1">
+            <img src= "C:\Users\Win10\Desktop\Vacunación\banner1.png" alt= "Logos de vacunas" width= "1200px" height= "100px">
+       </div>
+    </section>
+
+    <!-- Contenedor Section central izquierda -->
+    <section class="contB2">
+        <h2 class= "preguntaB"> ¿Por qué debería vacunarme? </h2>
+        <p class= "p2">
+            Con el fin de evitar cualquier duda respecto a la vacuna contra el COVID-19, conoce 4 beneficios de su aplicación:
+        </p>
+    </section>
+    <!-- Contenedor Section inferior -->
+    <section class= "contB3">
+        <!-- divs con información -->
+        <div class= "propagacion">
+            <h3><i class="fa-solid fa-minimize"></i><br> Minimiza la propagación de virus </h3>
+            <p> La vacuna ha demostrado su gran efectividad en la prevención de contagios de Coronavirus </p>
+        </div>
+
+        <div class= "anticuerpos">
+            <h3><i class="fa-solid fa-shield-halved"></i><br> Formación de anticuerpos </h3>
+            <p> La vacuna contra el COVID-19 ayuda a la estimulación de la respuesta del sistema inmune y a la creación de anticuerpos como respuesta  </p>
+        </div>
+
+        <div class= "proteccion">
+            <h3><i class="fa-solid fa-users"></i><br> Protege a la gente que te rodea </h3>
+            <p> Al vacunarte contra COVID-19 ayudas a cuidar a las personas que te rodean </p>
+        </div>
+
+        <div class= "inmunidad">
+            <h3><i class="fa-solid fa-chart-line"></i><br> Establece inmunidad grupal </h3>
+            <p> La vacunación contra COVID-19 beneficia la creación de inmunidad grupal o inmunidad colectiva </p>
+        </div>
+    </section>
+    <!-- Fin de Parte 2 -->
+
+    <!-- Parte 3 de 4 -->
+    
+    <!-- Contenedor izquierdo para el fondo e imagen -->
+    <section class= "contC1">
+        <div class= "fondoC1" > </div>
+        
+        <img src= "C:\Users\Win10\Desktop\Vacunación\imgC1.png" class= "imgC1" alt= "Imagen de una persona con mascarilla" width= "550px" height= "525px">
+    </section>
+    <!-- Contenedor derecho de información y despliegue -->
+    <section class= "contC2">
+        <div class= "indicaciones">
+            <h2> Preparate para recibir tu vacuna </h2>
+            <p> El exito de la vacuna esta fuertemente relacionado con la fortaleza del sistema inmune del cuerpo. Por ello, existe una lista de varias cosas que pueden afectar la efectividad de la vacuna:</p>
+        </div>
+    
+        <div class= "body">
+            <h3><i class="fa-solid fa-rectangle-xmark"></i> Evita las bebidas alcóholicas </h3>
+            <h3><i class="fa-solid fa-circle-xmark"></i> Evita el estrés </h3>
+            <h3><i class="fa-solid fa-apple-whole"></i> Come sano </h3>
+            <h3><i class="fa-solid fa-bed"></i> Dormir 8 horas </h3>
+            <h3><i class="fa-solid fa-person-walking"></i></i> Haz ejercicio </h3>
+        </div>
+    </section>
+    <!-- Fin de Parte 3 -->
+
+    <!-- Parte 4 de 4 -->
+
+    <!-- Contenedor izquierdo de enlaces de contacto -->
+    <section class= "contD1">
+        <h2> Contacto de Emergencia </h2>
+        <p class= "p4"> Contáctanos a traves de alguno de los siguientes medios en caso de que tú o algún familiar tengan sintomas de Covid-19 (asegurate de tomar las precauciones necesarias): </p>
+
+        <div> 
+            <h3><i class="fa-solid fa-phone-volume"></i> Teléfono </h3>
+            <p> 021.123.145.14 </p>
+            <button name= "button1"> Llamar ahora </button> 
+        </div>
+
+        <div> 
+            <h3><i class="fa-solid fa-comment-dots"></i> Chat </h3>
+            <p> 021.123.145.14 </p>
+            <input type= "button" id= "chat" name= "chat" value= "Chat">
+        </div>
+
+        <div> 
+            <h3><i class="fa-solid fa-video"></i>  Video llamada</h3>
+            <p>021.123.145.14</p>
+            <button name= "button2"> Hacer videollamada </button> 
+        </div>
+
+        <div> 
+            <h3><i class="fa-solid fa-envelope"></i> Mensaje </h3>
+            <p>021.123.145.14</p>
+            <button name= "button3"> Mandar Mensaje </button> 
+        </div>
+    </section>
+    <!-- Contenedor derecho para fondo e imagen -->
+    <section class= "contD2">
+        <div class= "fondoD2"></div>
+        
+        <img src= "C:\Users\Win10\Desktop\Vacunación\imgD1.png" alt= "Imagen referente a contactar" width= "430px" height= "550px">
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+        <!-- Enlaces a más información de la empresa y preguntas frecuentes -->
+        <div class= "mision">
+            <h3> Vaccination </h3>
+            <p> Nuestro objetivo es ayudar al mundo a erradicar la pandemia actual</p>
+        </div>
+
+        <div class= "eF1"> 
+            <h3> About </h3>
+            <a href= ""> About us </a><br>
+            <a href= ""> Features </a><br>
+            <a href= ""> News & Blog </a><br>
+        </div>
+
+        <div class= "eF2"> 
+            <h3> Company </h3>
+            <a href= ""> How we work? </a><br>
+            <a href= ""> Capital </a><br>
+            <a href= ""> Security </a><br>
+        </div>
+
+        <div class= "eF3"> 
+            <h3> Support </h3>
+            <a href= ""> FAQs </a><br>
+            <a href= ""> Support Center </a><br>
+            <a href= ""> Contact Us </a><br>
+        </div>
+        <!-- Marca registrada y enlaces a politicas -->
+        <div class= "marca">
+            <p>@2021 Vaccination. Todos los derechos reservados</p>
+        </div>
+
+        <div class= "politicas">
+            <p> Terminos & condiciones </p>
+            <p> Políticas de Privacidad </p>
+        </div>
+    </footer>
+    
+</body>
+</html>
